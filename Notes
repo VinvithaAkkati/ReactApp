@@ -1,0 +1,21 @@
+/*
+What is React?
+React is the core library that handles all component creation related for UI 
+It can be used in phones and different platforms Its used to define structure of UI
+
+What is React?
+reactDOM is used for web DOM manipulations , rESPONSIBLE FOR RENDERING REACT COMPOnents to Web
+
+What is Rendering?
+Rendering is a process of Converting react components into HTML elements that can be attached io DOM and displayed on Browser
+
+What is npm?
+It is not a Node Package Manager it has no abbreviation it is just a pacakge manager, it manages all packages we use in our App
+Use npm init to get npm to our APP
+
+what is Package.json?
+when we install or get npm into our app it will create a package.json file which has all details of dependencies and packages
+that we use in our app example versions on all packages their detials etc...
+
+
+*/

@@ -1,0 +1,19 @@
+{
+  "name": "reactapplication",
+  "version": "1.0.0",
+  "description": "My first original react app",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinvithaAkkati/ReactApp.git"
+  },
+  "author": "Vinvitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinvithaAkkati/ReactApp/issues"
+  },
+  "homepage": "https://github.com/VinvithaAkkati/ReactApp#readme"
+}
