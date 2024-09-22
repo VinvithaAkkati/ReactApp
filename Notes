@@ -10,7 +10,7 @@ What is Rendering?
 Rendering is a process of Converting react components into HTML elements that can be attached io DOM and displayed on Browser
 
 What is npm?
-Commnd: npm init
+Commnd: npm init ---creates a package.json
 It is not a Node Package Manager it has no abbreviation it is just a pacakge manager, it manages all packages we use in our App
 Use npm init to get npm to our APP
 
@@ -28,7 +28,7 @@ There are two types of Dependencies
 2)Normal Dependencies -- It requires in Prod
 
 Install Parcel-- A bundler to bundle all files to improve performance
-Command:-npm install -D parcel
+Command:-npm install -D parcel --creates a package-lock.json
 
 what is ^(caret) and tilde(~) before any version:
 ^ installs minor versions like 2.8.3 to 2.8.3
@@ -45,4 +45,32 @@ parcel will genarate nodeModules:
 we don't push it to prod server, coz we can generate all node modules with package.json and package-lock.json
 coz, they have all exact versions
 we can also use npm install to install node modules.
+
+npx parcel index.html to build our app - it will load our app  in to server ---Server running at http://localhost:1234
+parcel created a server and it hosted it on to our server
+
+npx- to excecuting a package
+npm - to install a package
+
+cdn links is not preffered way to use react
+
+Parcel -----It Does
+--Dev Build
+--Local Server
+--HMR- hot module Replacement
+--File watching Algorithm - Written in c++
+--Cashing - Faster Builds
+--Image Optimization
+--Minification
+--Bundling
+--Compress file
+--Consistent Hashing
+--Code Splitting
+--Differencial Bundling --Support Older browsers
+-- Diagnostic
+--Error Handling
+--HTTPs
+--Tree Scaling - remove unsed files
+
+
 */

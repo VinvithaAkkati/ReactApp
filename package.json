@@ -2,7 +2,6 @@
   "name": "reactapplication",
   "version": "1.0.0",
   "description": "My first original react app",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +17,12 @@
   "homepage": "https://github.com/VinvithaAkkati/ReactApp#readme",
   "devDependencies": {
     "parcel": "^2.12.0"
-  }
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
