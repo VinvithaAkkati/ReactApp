@@ -73,4 +73,24 @@ Parcel -----It Does
 --Tree Scaling - remove unsed files
 
 
+JSX - Html like syntax
+
+Babel:--
+JSX code is Transpiled before it reaches the JS ENgine by Babel which is inside the prcel
+Code flow: 
+JSX => React.createElement => ReactElement-JS Object => HTMLElemet(render)
+
+const jsxElement = <h1>This is from JSX</h1>;
+                || Transpiled by babel
+                \/
+const jsxElement = React.createElement("h1",{id:"jsxElement"},"This is from JSX");
+                || by Core React 
+                \/
+            JS Object 
+                || by JS Engine at Browser
+                \/
+             HTML CODE 
+
+
+
 */
