@@ -91,6 +91,11 @@ const jsxElement = React.createElement("h1",{id:"jsxElement"},"This is from JSX"
                 \/
              HTML CODE 
 
+What is React Component?
+There are two types of components in react 
+Class based component and Functional component.
 
 
+React Functionl Component:
+A function which returns react element (some piece of JSX which can be translated to react Element) is called React Functionl Component
 */
