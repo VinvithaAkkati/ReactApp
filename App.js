@@ -1,29 +1,66 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
- const heading = React.createElement("h1",{id:"heading"},"h1 from React!!");
- 
-// const parent = React.createElement(
-//     "div",
-//     {id:"parent"}, 
-//    [ React.createElement("div",{id:"child"},
-//         [heading,React.createElement("h2",{id:"heading2"},"h2 from React")]),
-//         React.createElement("div",{id:"child2"},
-//             [heading,React.createElement("h2",{id:"heading2"},"h2 from Child2")])]);
-
- const jsxElement = <h1>This is from JSX</h1>;
- const Title = ()=>{
-    return <h1>This is Title FC</h1>;
- }
- const JsxElement = () => {
+const Header = () => {
     return (
-        <div>
-            <Title/>
-    <h1>
-        This is Functionl Component 
-    </h1></div>)
- }
- const root = ReactDOM.createRoot(document.getElementById("root"));
- root.render(<JsxElement />);
+        <div className='header'>
+            <div className='logo-container' >
+                <img className='logo' src="https://thumbs.dreamstime.com/b/fast-delivery-logo-design-food-service-creative-template-running-burger-corporate-identity-restaurant-cafe-vector-124330704.jpg"></img>
+            </div>
+            <div className='nav-elements'>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Cart</li>
+                </ul>
+            </div>
+        </div>
+    );
+}
 
-//const heading= React.createElement("h1",{id:"heading"},"h1 from React! 🚀")
+const RestaurentCard = () => {
+ return (
+    //<div className='resto-card-container'>
+        <div className="resto-card">
+        <img className="restro-logo" src="https://images.adsttc.com/media/images/63bd/752c/a9f4/9f1c/c9dd/e0b3/slideshow/moonhouse-restaurant-ewert-leaf_1.jpg?1673360713"></img>
+        <h3>Meghana Foods</h3>
+        <h4>Biryani, Asian, American</h4>
+        <h4>4.4 starts</h4>
+        <h4>34 min</h4>
+        </div>
+    //</div>
+ );
+}
+const Body = () => {
+return (
+    <div className='body-container'>
+        <div className='search-bar'> Search</div>
+        <div className='resto-card-container'>
+            <RestaurentCard/>
+            <RestaurentCard/>
+            <RestaurentCard/>
+            <RestaurentCard/>
+            <RestaurentCard/>
+        </div>
+    </div>
+);
+}
+const AppLayout = () => {
+  
+    return (
+    //Header
+        <div className = "app">
+            <Header></Header>
+            <Body></Body>
+            {/* <Footer></Footer> */} 
+        </div>
+    //Body
+    //Footer
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AppLayout />);
+
+

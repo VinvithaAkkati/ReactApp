@@ -98,4 +98,6 @@ Class based component and Functional component.
 
 React Functionl Component:
 A function which returns react element (some piece of JSX which can be translated to react Element) is called React Functionl Component
+
+Component Composition-Composing two components into one another
 */
