@@ -7,7 +7,7 @@ What is React?
 reactDOM is used for web DOM manipulations , rESPONSIBLE FOR RENDERING REACT COMPOnents to Web
 
 What is Rendering?
-Rendering is a process of Converting react components into HTML elements that can be attached io DOM and displayed on Browser
+Rendering is a process of Converting react components into HTML elements that can be attached to DOM and displayed on Browser
 
 What is npm?
 Commnd: npm init ---creates a package.json
@@ -99,5 +99,27 @@ Class based component and Functional component.
 React Functionl Component:
 A function which returns react element (some piece of JSX which can be translated to react Element) is called React Functionl Component
 
-Component Composition-Composing two components into one another
+Component Composition-Composing two components into one another.
+
+Props:
+Passing some values to a components like function args are called props.
+
+Config Driven UI:
+UI is rendered based on data comming from backend EX: 
+different locations need different types of cards or offers
+
+
+Optional chaining (?.):
+The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
+
+Props:
+React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+
+key inbuild keyword:
+The key prop is a special property in React that helps React keep track of elements. It’s like giving each element or component a unique ID. This ID lets React know that the element is different from the others, even if it looks the same.
+Ex: if in future if we get an item at 0th position, React DOM Cannot identify which item is unique and it will rerender all items again
+to avoid this if we send item with unique ID it will differentiate this new item and only render that item instead of rendering entire or all items
+
+
+
 */
