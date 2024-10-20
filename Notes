@@ -121,5 +121,15 @@ Ex: if in future if we get an item at 0th position, React DOM Cannot identify wh
 to avoid this if we send item with unique ID it will differentiate this new item and only render that item instead of rendering entire or all items
 
 
+Two types of Export/Import
+
+--Default 
+export default Component;
+import Component from 'path';
+
+--Named Export/Import
+export {const} component;
+import Component from 'path';
+
 
 */
