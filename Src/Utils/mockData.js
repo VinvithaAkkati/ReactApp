@@ -2,7 +2,7 @@ const resList = [
     {
         "info": {
             "id": "121603",
-            "name": "Keerthi Food Point",
+            "name": "Kanur Food Point",
             "cloudinaryImageId": "bmwn4n4bn6n1tcpc8x2h",
             "locality": "BTM Layout",
             "areaName": "BTM Layout",
