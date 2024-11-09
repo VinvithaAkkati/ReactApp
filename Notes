@@ -128,8 +128,11 @@ export default Component;
 import Component from 'path';
 
 --Named Export/Import
-export {const} component;
-import Component from 'path';
+export const component;
+import {Component} from 'path';
+
+React Hooks
+------
 
 
 */
