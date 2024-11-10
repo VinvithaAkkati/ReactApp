@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import Body from './Components/Body';
 
 const AppLayout = () => {
-  
+  console.log(<Body></Body>)
     return (
         <div className = "app">
             <Header></Header>

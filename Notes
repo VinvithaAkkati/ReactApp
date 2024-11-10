@@ -133,6 +133,20 @@ import {Component} from 'path';
 
 React Hooks
 ------
+Normal functions that return an array that holds state variable and function to modify it.
+
+when ever a state variable changes react will reRender the component
+
+Reconsialation Algorithm
+Virtual Dom
+-----------
+React Object is Virtual dom
+
+
+Diff Algorithm , Difference between old Virtual DOM and new Virtual DOM
+
+Recap: Hooks are nothing but normal JS Utility functions, 
+it give access to super powerfull variable. when this varibale changes react apply a diff algorithm and find difference and rerender the dom 
 
 
 */

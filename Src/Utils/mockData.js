@@ -11,7 +11,7 @@ const resList = [
                 "Kerala",
                 "Chinese"
             ],
-            "avgRating": 4.2,
+            "avgRating": 3.2,
             "parentId": "20974",
             "avgRatingString": "4.2",
             "totalRatingsString": "63K+",
@@ -110,7 +110,7 @@ const resList = [
                 "Continental",
                 "Italian"
             ],
-            "avgRating": 4.6,
+            "avgRating": 3.6,
             "parentId": "218065",
             "avgRatingString": "4.6",
             "totalRatingsString": "141K+",
@@ -212,7 +212,7 @@ const resList = [
                 "Sweets",
                 "Chaat"
             ],
-            "avgRating": 4.6,
+            "avgRating": 3.6,
             "veg": true,
             "parentId": "177625",
             "avgRatingString": "4.6",
@@ -1181,7 +1181,7 @@ const resList = [
                 "Chinese",
                 "Snacks"
             ],
-            "avgRating": 4.5,
+            "avgRating": 3.5,
             "parentId": "2059",
             "avgRatingString": "4.5",
             "totalRatingsString": "2.2K+",
